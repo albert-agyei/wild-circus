@@ -1,0 +1,174 @@
+ body {
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   font-size: 1.2rem;
+   line-height: 1.5;
+   letter-spacing: 1.5;
+ }
+
+ h1{
+  font-family: 'Amatic SC', cursive;
+ }
+
+ p{
+  font-family: 'Oswald', sans-serif;
+ }
+
+ h2{
+  font-family: 'Amatic SC', cursive;
+ }
+
+ li {
+   list-style: none;
+ }
+
+ h3 {
+  font-family: 'Amatic SC', cursive;
+   font-size: 1.5rem;
+   font-weight: bold;
+  
+ }
+
+ nav {
+   font-size: 1.2rem;
+ }
+
+ .brand {
+   margin-left: 5%;
+ }
+
+ .brand a {
+  font-family: 'Oswald', sans-serif;
+   font-weight: bold;
+   font-size: 1.8rem;
+ }
+
+ .wild {
+   color: #e72d50;
+   padding-right: 5px;
+ }
+
+ .mylinks {
+  font-family: 'Amatic SC', cursive;
+   margin-right: 5%;
+ }
+
+ #banner {
+   background-image: url("../img/banner.jpeg");
+   max-width: 100%;
+   height: 50%;
+   margin-bottom: 5%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+ }
+
+ /* performance section */
+
+ #performance {
+   margin-bottom: 5%;
+   margin-top: 5%;
+ }
+
+
+
+ .performance {
+   padding: 5% 15% 5%;
+   font-size: 2.0rem;
+   font-weight: bold;
+   color:#e72d50;
+   text-transform: uppercase;
+ }
+
+
+ /* about us section */
+
+ #about-us {
+   padding: 5% 15% 5%;
+   text-align: left;
+ }
+
+ #about-us h2 {
+   font-size: 2.0rem;
+   font-weight: bold;
+   text-transform: uppercase;
+   color: #e72d50;
+   margin-bottom: 3%;
+ }
+
+ .bozo {
+   background-image: url("../img/bozo.png");
+   width: 100%;
+   background-size: contain;
+   background-repeat: no-repeat;
+ }
+
+ .breaker {
+   border: dotted gray 6px;
+   border-bottom: none;
+   width: 4%;
+   margin: 3px auto;
+ }
+
+
+/* price section */
+ .price {
+   padding: 10% 15%;
+ }
+
+ .thead{
+  font-family: 'Amatic SC', cursive;
+ }
+ .price h2{
+   font-size: 2.0rem;
+   font-weight: bold;
+   color:#e72d50;
+   margin-bottom: 3%;
+ }
+
+.caption{
+font-size: 1.5rem;
+font-weight: bold;
+}
+
+
+/* contact section */
+
+.contact{
+  font-family: 'Amatic SC', cursive;
+  padding: 10% 30%;
+  background-color: #0e0c1b;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 2.0rem;
+}
+
+.contact h2{
+  font-size: 2.0rem;
+  font-weight: bold;
+  margin-bottom: 5%;
+  color: #e72d50;
+}
+
+
+/* footer section */
+.footer{
+    padding: 3% 15%;
+    font-size: 1.0rem;
+    background-color: #000;
+    color: #fff;
+    font-weight: 200;
+}
+.footer a{
+  color: #fff;
+}
+
+.footer a:hover{
+  color: #e72d50;
+  text-decoration: none;
+}
+
+.wildcode{
+  color: #e72d50;
+}
